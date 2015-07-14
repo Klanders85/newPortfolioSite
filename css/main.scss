@@ -14,9 +14,12 @@ body{
 	margin-top: $margTop;
 }
 
+.homepage-intro{
+	@include push-down(15%);
+}
 
 .intro-section{
-	@include push-down(15%);
+	@include push-down(2%);
 	img{
 		
 		border-radius: 50%;
