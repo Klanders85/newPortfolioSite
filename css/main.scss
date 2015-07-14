@@ -16,7 +16,11 @@ body{
 
 
 .intro-section{
-	@include push-down(20%);
+	@include push-down(15%);
+	img{
+		
+		border-radius: 50%;
+	}
 }
 
 .content-outline{
