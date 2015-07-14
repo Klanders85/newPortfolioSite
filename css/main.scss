@@ -1,0 +1,27 @@
+body{
+	background-color: #eee;
+}
+
+.top-bar-section{
+	ul{
+		li{
+			border-bottom: 2px solid white;
+		}
+	}
+}
+
+@mixin push-down($margTop){
+	margin-top: $margTop;
+}
+
+
+.intro-section{
+	@include push-down(20%);
+}
+
+.content-outline{
+	div{
+		@include push-down(10%);
+	}
+}
+
