@@ -47,11 +47,3 @@ app.controller('portfolioController', function($scope){
 app.controller('contactController', function($scope){
 	$scope.message = 'Contact View painted';
 })
-
-// Nav Tabs Controller
-app.controller('navTabsController', function($scope, $route){
-	$scope.isActive = function (viewLocation) {
-	    var active = (viewLocation === $location.path());
-	    return active;
-	};
-})
