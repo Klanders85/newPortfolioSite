@@ -44,8 +44,12 @@ body{
 	}
 }
 
+#contactForm{
+	@include push-down(10%);
+}
+
 .socialIcons{
-	@include push-down(5%);
+	@include push-down(3%);
 	i{
 		margin-left: 10px;
 	}
